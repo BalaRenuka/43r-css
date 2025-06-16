@@ -1,0 +1,22 @@
+.container{
+    width: 90%;
+    height: 600px;
+    border: 2px solid rgb(230, 162, 162);
+    margin-left: 250px;
+
+}
+.child1,.child2,.child3,.child4{
+    display: inline-block;
+    width:200px;
+    height:500px;
+    margin-left: 50px;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+img{
+    width:100%;
+   
+}
+h2{
+    width:100%
+}
