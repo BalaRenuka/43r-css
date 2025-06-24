@@ -1,0 +1,32 @@
+*{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container{
+            border: 2px solid rgb(150, 49, 49);
+            height: 640px;
+            width: 640px;
+        }
+        .row{
+            display: flex;
+        }
+        .row>div{
+            height: 80px;
+            width: 80px;
+            border: 2px solid rgb(168, 60, 60);
+            align-content: center;
+            text-align: center;
+        }
+        .row1>div:nth-child(even),.row3>div:nth-child(even),.row5>div:nth-child(even),.row7>div:nth-child(even){
+            background-color: rgb(168, 60, 60);
+        }
+        .row2>div:nth-child(odd),.row4>div:nth-child(odd),.row6>div:nth-child(odd),.row8>div:nth-child(odd){
+            background-color: rgb(168, 60, 60);
+        }
