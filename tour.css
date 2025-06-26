@@ -1,0 +1,30 @@
+/* body{
+    width: 80%;
+    height: 700px;
+    border: 2px solid;
+} */
+.circle{
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid; */
+    border-radius: 50%;
+    position: relative;
+    top: 150px;
+    left: 250px;
+    background-color: white;
+}
+.child{
+    width: 200px ;
+    height: 200px;
+    border-radius: 50%;
+    background-color: lightskyblue;
+    position: relative;
+    left:45px;
+    top: 20px;
+}
+.square{
+    width: 900px;
+    height: 300px;
+    border: 2px solid rgb(163, 69, 163);
+    background-color: rgb(195, 83, 195);
+}
