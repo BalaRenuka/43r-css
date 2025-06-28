@@ -1,0 +1,39 @@
+.container{
+    
+    border: 2px solid;
+    display: flex;
+    justify-content: start ;
+    /* align-items: end; */
+    height: 500px;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.item{
+    padding: 10px;
+    height: 10px;
+    width: 500px;
+    /* flex-basis: 50px; */
+    /* flex: 1 1 500px;    */   
+
+}
+.item-1{
+    background-color: lightcoral;
+    /* order: -2; */
+}
+.item-2{
+    background-color: lightblue;
+    /* order: 1; */
+}
+.item-3{
+    background-color: lightseagreen;
+    /* order: -1; */
+}
+.item-4{
+    background-color: lightgrey;
+    
+}
+.item-5{
+    background-color: lightpink;
+    
+}
