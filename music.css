@@ -65,7 +65,7 @@
                 transform: scaleY(1);
             }
             50%{
-                transform: scaleY(6);
+                transform: scaleY(3);
                 border-radius: 40%;
             }
             100%{
@@ -89,7 +89,7 @@
                 transform: scaleY(1);
             }
             50%{
-                transform: scaleY(6);
+                transform: scaleY(3);
                 border-radius: 40%;
             }
             100%{
